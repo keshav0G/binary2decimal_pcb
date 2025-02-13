@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\Hp\Desktop\code\pcbDesign\7segment binary to decimal converter\7 segmetn display\7 segmetn display.kicad_sch</source>
+    <date>2/14/2024 12:07:50 AM</date>
+    <tool>Eeschema 7.0.8</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>7 segmetn display.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>Conn_01x02_Pin</value>
+      <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="7 segmetn display.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5b61227f-bf81-4c06-a67b-3e17d1b31042</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>R</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="7 segmetn display.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f2d62565-5eb9-48f0-819e-949b8bec6968</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>R</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="7 segmetn display.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>878597f9-b43d-4f5d-b8bd-4effeeded0f3</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>R</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="7 segmetn display.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>80832128-8f55-4772-aa94-b32ea2481855</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>R</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="7 segmetn display.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>70f74a3b-1029-4a88-9b8e-70577687f439</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>R</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="7 segmetn display.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>56c77255-a67f-470a-adae-3b8cc1e50a21</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_DIP_x04</value>
+      <libsource lib="Switch" part="SW_DIP_x04" description="4x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="7 segmetn display.kicad_sch"/>
+      <property name="ki_description" value="4x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"/>
+      <property name="ki_keywords" value="dip switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>69be446c-fe56-49f6-8a2b-eb8284bce432</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>74LS47</value>
+      <datasheet>http://www.ti.com/lit/gpn/sn74LS47</datasheet>
+      <libsource lib="74xx" part="74LS47" description="BCD to 7-segment Driver, Open Collector, 30V outputs"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="7 segmetn display.kicad_sch"/>
+      <property name="ki_description" value="BCD to 7-segment Driver, Open Collector, 30V outputs"/>
+      <property name="ki_keywords" value="TTL DECOD DECOD7 OpenCol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>be2eaff5-c89b-4ac4-823a-138cf700df85</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>D168K</value>
+      <footprint>Display_7Segment:AD-121F2</footprint>
+      <datasheet>https://ia800903.us.archive.org/24/items/CTKD1x8K/Cromatek%20D168K.pdf</datasheet>
+      <libsource lib="Display_Character" part="D168K" description="One digit 7 segment ultra bright red LED, low current, common cathode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="7 segmetn display.kicad_sch"/>
+      <property name="ki_description" value="One digit 7 segment ultra bright red LED, low current, common cathode"/>
+      <property name="ki_keywords" value="display LED 7-segment"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>06b278a5-2863-4f8f-ab30-7329d4e6c27c</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="74xx" part="74LS47">
+      <description>BCD to 7-segment Driver, Open Collector, 30V outputs</description>
+      <docs>http://www.ti.com/lit/gpn/sn74LS47</docs>
+      <footprints>
+        <fp>DIP?16*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LS47</field>
+        <field name="Datasheet">http://www.ti.com/lit/gpn/sn74LS47</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="C" type="input"/>
+        <pin num="3" name="LT" type="input"/>
+        <pin num="4" name="BI" type="input"/>
+        <pin num="5" name="RBI" type="input"/>
+        <pin num="6" name="D" type="input"/>
+        <pin num="7" name="A" type="input"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="e" type="open_collector"/>
+        <pin num="10" name="d" type="open_collector"/>
+        <pin num="11" name="c" type="open_collector"/>
+        <pin num="12" name="b" type="open_collector"/>
+        <pin num="13" name="a" type="open_collector"/>
+        <pin num="14" name="g" type="open_collector"/>
+        <pin num="15" name="f" type="open_collector"/>
+        <pin num="16" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x02_Pin">
+      <description>Generic connector, single row, 01x02, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Pin</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Display_Character" part="D168K">
+      <description>One digit 7 segment ultra bright red LED, low current, common cathode</description>
+      <docs>https://ia800903.us.archive.org/24/items/CTKD1x8K/Cromatek%20D168K.pdf</docs>
+      <footprints>
+        <fp>D1X8K*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">D168K</field>
+        <field name="Footprint">Display_7Segment:D1X8K</field>
+        <field name="Datasheet">https://ia800903.us.archive.org/24/items/CTKD1x8K/Cromatek%20D168K.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="input"/>
+        <pin num="2" name="D" type="input"/>
+        <pin num="3" name="CC" type="input"/>
+        <pin num="4" name="C" type="input"/>
+        <pin num="5" name="DP" type="input"/>
+        <pin num="6" name="B" type="input"/>
+        <pin num="7" name="A" type="input"/>
+        <pin num="8" name="CC" type="input"/>
+        <pin num="9" name="F" type="input"/>
+        <pin num="10" name="G" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_DIP_x04">
+      <description>4x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SW?DIP?x4*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_DIP_x04</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+        <pin num="7" name="" type="passive"/>
+        <pin num="8" name="" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="74xx">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/74xx.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Display_Character">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Display_Character.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Switch.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="3" pintype="passive"/>
+      <node ref="SW1" pin="4" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U1" pin="3" pinfunction="LT" pintype="input"/>
+      <node ref="U1" pin="4" pinfunction="BI" pintype="input"/>
+      <node ref="U1" pin="5" pinfunction="RBI" pintype="input"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="3" name="Net-(R2-Pad2)">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="CC" pintype="input"/>
+      <node ref="U2" pin="8" pinfunction="CC" pintype="input"/>
+    </net>
+    <net code="4" name="Net-(U1-A)">
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="8" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="A" pintype="input"/>
+    </net>
+    <net code="5" name="Net-(U1-B)">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="5" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="B" pintype="input"/>
+    </net>
+    <net code="6" name="Net-(U1-C)">
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="6" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="C" pintype="input"/>
+    </net>
+    <net code="7" name="Net-(U1-D)">
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="7" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="D" pintype="input"/>
+    </net>
+    <net code="8" name="Net-(U1-a)">
+      <node ref="U1" pin="13" pinfunction="a" pintype="open_collector"/>
+      <node ref="U2" pin="7" pinfunction="A" pintype="input"/>
+    </net>
+    <net code="9" name="Net-(U1-b)">
+      <node ref="U1" pin="12" pinfunction="b" pintype="open_collector"/>
+      <node ref="U2" pin="6" pinfunction="B" pintype="input"/>
+    </net>
+    <net code="10" name="Net-(U1-c)">
+      <node ref="U1" pin="11" pinfunction="c" pintype="open_collector"/>
+      <node ref="U2" pin="4" pinfunction="C" pintype="input"/>
+    </net>
+    <net code="11" name="Net-(U1-d)">
+      <node ref="U1" pin="10" pinfunction="d" pintype="open_collector"/>
+      <node ref="U2" pin="2" pinfunction="D" pintype="input"/>
+    </net>
+    <net code="12" name="Net-(U1-e)">
+      <node ref="U1" pin="9" pinfunction="e" pintype="open_collector"/>
+      <node ref="U2" pin="1" pinfunction="E" pintype="input"/>
+    </net>
+    <net code="13" name="Net-(U1-f)">
+      <node ref="U1" pin="15" pinfunction="f" pintype="open_collector"/>
+      <node ref="U2" pin="9" pinfunction="F" pintype="input"/>
+    </net>
+    <net code="14" name="Net-(U1-g)">
+      <node ref="U1" pin="14" pinfunction="g" pintype="open_collector"/>
+      <node ref="U2" pin="10" pinfunction="G" pintype="input"/>
+    </net>
+    <net code="15" name="unconnected-(U2-DP-Pad5)">
+      <node ref="U2" pin="5" pinfunction="DP" pintype="input+no_connect"/>
+    </net>
+  </nets>
+</export>
